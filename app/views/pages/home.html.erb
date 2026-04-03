@@ -1,17 +1,24 @@
+  <!-- HERO -->
 <div class="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center">
   <h1 class="text-5xl font-bold mb-4">Wallisson-tech</h1>
-  <p class="text-xl mb-6">Desenvolvendo com Ruby on Rails 💎</p>
+  <p class="text-xl mb-6">Desenvolvendo com <span class="font-bold text-red-500">Ruby</span> on Rails 💎</p>
 
-  <h1 class="text-5xl text-red-500 font-bold">
-  Tailwind está funcionando?
-</h1>
-
-<div class="bg-blue-500 text-white p-4">
-  Se isso estiver azul, deu certo 🚀
-</div>
+  <p class="text-xl md:text-2xl max-w-2xl mb-8 text-gray-600 dark:text-gray-300">
+      Desenvolvedor Ruby on Rails criando aplicações modernas, rápidas e escaláveis.
+  </p>
 
   <div class="flex gap-4">
-    <%= link_to "Projetos", projects_path, class: "bg-blue-500 px-4 py-2 rounded" %>
-    <a href="#contato" class="bg-gray-700 px-4 py-2 rounded">Contato</a>
+      <%= link_to "Ver Projetos", projects_path,
+        class: "bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-xl shadow" %>
   </div>
-</div>
+
+    <!-- CTA -->
+  <section class="py-20 px-6 bg-blue-500 text-white text-center">
+    <h2 class="text-3xl font-bold mb-4">
+      Vamos trabalhar juntos?
+    </h2>
+
+    <p class="mb-6 text-lg">
+      Estou disponível para novos projetos e oportunidades.
+    </p>
+  </section>
